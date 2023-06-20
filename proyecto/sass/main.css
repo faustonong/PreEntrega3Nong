@@ -1,0 +1,78 @@
+head, body {
+  background: radial-gradient(ellipse at center, rgb(248, 248, 231) 10%, white 100%);
+}
+
+.navbar-nav .nav-link:hover {
+  color: rgb(18, 11, 226);
+  text-decoration: underline;
+}
+
+.piedepaginageneral {
+  margin-top: 20px !important;
+  color: aliceblue;
+  background-color: rgb(61, 59, 59);
+}
+.piedepaginageneral h2 {
+  margin-bottom: 20px;
+}
+
+.gallery-container {
+  text-align: left;
+  height: 300px;
+}
+.gallery-container .image {
+  position: relative;
+}
+.gallery-container .image img {
+  width: 100%;
+  height: auto;
+}
+.gallery-container .image:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.gallery-container .image:hover:before {
+  opacity: 1;
+}
+
+.rounded.float-start {
+  width: 100%;
+}
+
+.habitaciones {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 20px;
+}
+
+.tituloeventos {
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.row.justify-content-evenly .col-4 a img {
+  margin-bottom: 50px;
+}
+
+.contact-info {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+input {
+  transition: width 2s;
+}
+
+input:focus {
+  width: 200%;
+}/*# sourceMappingURL=main.css.map */
